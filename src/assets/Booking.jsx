@@ -125,13 +125,6 @@ const Booking = () => {
             </button>
           </div>
         </form>
-
-        {/* Back to Services */}
-        <div className="text-center mt-4">
-          <a href="/services" className="text-blue-600 font-semibold hover:underline">
-            ← Back to Services
-          </a>
-        </div>
       </div>
     </section>
   );

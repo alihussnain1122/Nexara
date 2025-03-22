@@ -44,7 +44,7 @@ export default function BehindTheScenes() {
           autoPlay
           muted
         >
-          <source src="/BHscene.mp4" type="video/mp4" />
+          <source src="/logistics.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>

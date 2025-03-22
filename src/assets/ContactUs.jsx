@@ -37,11 +37,11 @@ export default function ContactUs() {
           "url('https://images.unsplash.com/photo-1598193957011-39b9f2916992?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
       }}
     >
-      <div className="bg-white shadow-lg rounded-lg p-8 max-w-3xl w-full mx-6">
+      <div className=" shadow-lg rounded-lg p-8 max-w-3xl w-full mx-6">
         <h2 className="text-3xl font-bold text-center text-[#111c4f] mb-6">
           Contact Us
         </h2>
-        <p className="text-center text-gray-600 text-lg mb-6">
+        <p className="text-center text-white text-lg mb-6">
           Have a question? Feel free to reach out!
         </p>
 
@@ -49,17 +49,17 @@ export default function ContactUs() {
           <input
             type="text"
             placeholder="Your Name"
-            className="w-full p-3 border text-black border-gray-300 rounded-lg focus:outline-none focus:border-red-500 transition-all"
+            className="w-full p-3 border text-white border-gray-300 rounded-lg focus:outline-none focus:border-red-500 transition-all"
           />
           <input
             type="email"
             placeholder="Your Email"
-            className="w-full p-3 border text-black border-gray-300 rounded-lg focus:outline-none focus:border-red-500 transition-all"
+            className="w-full p-3 border text-white border-gray-300 rounded-lg focus:outline-none focus:border-red-500 transition-all"
           />
           <textarea
             placeholder="Your Message"
             rows="5"
-            className="w-full p-3 border text-black border-gray-300 rounded-lg focus:outline-none focus:border-red-500 transition-all"
+            className="w-full p-3 border text-white border-gray-300 rounded-lg focus:outline-none focus:border-red-500 transition-all"
           ></textarea>
           <button className="w-full bg-red-500 text-white font-semibold py-3 rounded-lg hover:bg-red-600 transition cursor-pointer">
             Send Message
